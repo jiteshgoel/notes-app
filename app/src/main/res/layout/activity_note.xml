@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="index1.developer.acadview.com.mynotesapp.NoteActivity">
+
+    <EditText
+        android:id="@+id/title_edit"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_title_for_your_note"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/body_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/enter_your_note"
+        android:inputType="textMultiLine"
+        android:selectAllOnFocus="false" />
+</LinearLayout>
